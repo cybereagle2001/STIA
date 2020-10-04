@@ -78,7 +78,7 @@ echo ""
 echo    "   1* nmap"
 echo    "   2* Th3inspector      "
 echo    "   3* setoolkit"
-echo    "   4* sparta"
+echo    "   4* legion"
 echo    "   5* Sherlock"
 echo ""
 echo  -e  "   00* go back" ${LIGHTBLUE}
@@ -95,7 +95,7 @@ read -p "InG@STIA~$ " Menu1
    cd social-engineer-toolkit && python setup.py && setoolkit
   fi
   if [ "$Menu1" == "4" ]; then
-   sparta
+   legion
   fi
   if [ "$Menu1" == "5" ]; then
    cd sherlock &&  python3 -m pip install -r requirements.txt && python3 sherlock.py

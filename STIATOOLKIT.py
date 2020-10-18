@@ -232,5 +232,5 @@ elif(Menu == 00): #logout
    \033[0mThanks for useing \033[1;31m STIA script \033[0m. If you got any prooblems please send us an e-mail on \033[0;32m cybereagle592@gmail.com \033[0m, or on github \033[1;33m https://github.com/Secret-Tunisian-Information-Agency ."
    """)
 
-else: #stay in the main menu part
-   print("stay here")
+else: #stay in the main menu 
+   print("stay here ")
